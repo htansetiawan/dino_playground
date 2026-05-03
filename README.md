@@ -23,9 +23,6 @@ dino/
 ├── scripts/
 │   ├── dinov3.ipynb            # notebook 1 — feature extraction
 │   └── dinov3_classify.ipynb   # notebook 2 — classification on top
-├── weights/                     # DINOv3 .pth weights (download separately, gitignored)
-├── image.jpg                    # any sample image to test on (gitignored)
-└── model.md                     # download URLs for the weights (gitignored)
 ```
 
 ### Notebook 1 — `scripts/dinov3.ipynb`
@@ -66,7 +63,7 @@ Training a vision model from scratch on CIFAR-10 with a ResNet typically gets yo
 This project uses [`uv`](https://github.com/astral-sh/uv) for Python deps.
 
 ```bash
-git clone https://github.com/<you>/dino
+git clone https://github.com/htansetiawan/dino
 cd dino
 uv sync                           # installs torch, torchvision, etc. from pyproject.toml
 ```
